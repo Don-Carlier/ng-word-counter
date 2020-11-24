@@ -1,0 +1,18 @@
+
+.footer {
+    width: 100%;
+    background: rgb(46, 46, 46);
+    color: white;
+    padding: 16px;
+   // position: absolute;
+    bottom: 0;
+    height: 48px;
+    box-sizing: border-box;
+    
+    span {
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+        display: block;
+    }
+}

@@ -1,0 +1,15 @@
+h1 {
+    margin: 32px auto;
+    width: 600px;
+}
+
+.content {
+    padding: 16px;
+    box-sizing: border-box;
+    min-height: calc(100%  - 112px);
+    margin-bottom: -48px;
+}
+
+.push {
+    height: 48px;
+}

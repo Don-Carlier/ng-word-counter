@@ -1,0 +1,14 @@
+.header {
+    width: 100%;
+    background: rgb(46, 46, 46);
+    padding: 16px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+
+    h1 {
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+    }
+}

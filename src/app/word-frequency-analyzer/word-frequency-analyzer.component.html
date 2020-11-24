@@ -1,0 +1,13 @@
+<div class="animate__animated animate__backInLeft center">
+    <label for="wmd-input">Check your text below:</label>
+    <textarea [attr.disabled]="words > 100 ? '' : null" #text id="wmd-input" name="post-text" 
+         data-post-type-id="2" cols="92" rows="5" tabindex="101" data-min-length=""></textarea>
+    
+    <input type="button" (click)="frequencyCounter()" value="Check frequency"/>   
+
+    <div class="output" [ngClass]="status ? 'fade-in' : 'hidden'">
+        <div>Words: <span id="wordCount">{{ words }}</span></div>
+        <div>Frequency: <span id="wordFrequency">{{ mostFrequentWord }}</span> <span id="wordFrequency">{{ mostFrequentAmount }}</span></div>
+        <div>Frequency N Word: <span id="freqNAmount"></span></div>
+    </div>
+</div>
